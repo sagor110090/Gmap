@@ -1,14 +1,14 @@
-<?php namespace FarhanWazir\GoogleMaps\Containers;
+<?php namespace Sagor110090\GoogleMaps\Containers;
 /*
 Description: The point-in-polygon algorithm allows you to check if a point is
 inside a polygon or outside of it.
-Author: Michaël Niessen (2009)
+Author: Michaï¿½l Niessen (2009)
 Website: http://AssemblySys.com
 
 Tutorial URL::: http://assemblysys.com/php-point-in-polygon-algorithm
  
 If you find this script useful, you can show your
-appreciation by getting Michaël a cup of coffee ;)
+appreciation by getting Michaï¿½l a cup of coffee ;)
 PayPal: michael.niessen@assemblysys.com
  
 As long as this notice (including author name and details) is included and

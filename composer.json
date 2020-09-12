@@ -1,6 +1,6 @@
 {
-    "name": "farhanwazir/laravelgooglemaps",
-    "description": "Laravel Google Map package for 5.x. You can use all google map features in laravel.",
+    "name": "Sagor110090/laravelgooglemaps",
+    "description": "Laravel Google Map package for 7.x. You can use all google map features in laravel.",
     "license": "MIT",
     "keywords": [
         "laravel",
@@ -16,12 +16,11 @@
         "role": "Author"
     }],
     "require": {
-        "php": ">=5.6.0",
-        "laravel/framework": "7.*"
+        "php": ">=5.6.0"
     },
     "autoload": {
         "psr-4": {
-            "FarhanWazir\\GoogleMaps\\": "src/FarhanWazir/GoogleMaps/"
+            "Sagor110090\\GoogleMaps\\": "src/Sagor110090/GoogleMaps/"
         }
     },
     "extra": {

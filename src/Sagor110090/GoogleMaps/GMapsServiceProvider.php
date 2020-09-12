@@ -1,4 +1,4 @@
-<?php namespace FarhanWazir\GoogleMaps;
+<?php namespace Sagor110090\GoogleMaps;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use FarhanWazir\GoogleMaps\GMaps;
+use Sagor110090\GoogleMaps\GMaps;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;

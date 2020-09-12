@@ -1,9 +1,9 @@
 # Laravel Google Maps
-[![Rank](https://phppackages.org/p/farhanwazir/laravelgooglemaps/badge/rank.svg)](http://phppackages.org/p/farhanwazir/laravelgooglemaps)
-[![Total Downloads](https://poser.pugx.org/farhanwazir/laravelgooglemaps/d/total.svg)](https://packagist.org/packages/farhanwazir/laravelgooglemaps)
-[![Latest Stable Version](https://poser.pugx.org/farhanwazir/laravelgooglemaps/v/stable.svg)](https://packagist.org/packages/farhanwazir/laravelgooglemaps)
-[![Latest Unstable Version](https://poser.pugx.org/farhanwazir/laravelgooglemaps/v/unstable.svg)](https://packagist.org/packages/farhanwazir/laravelgooglemaps)
-[![License](https://poser.pugx.org/farhanwazir/laravelgooglemaps/license.svg)](https://packagist.org/packages/farhanwazir/laravelgooglemaps)
+[![Rank](https://phppackages.org/p/Sagor110090/laravelgooglemaps/badge/rank.svg)](http://phppackages.org/p/Sagor110090/laravelgooglemaps)
+[![Total Downloads](https://poser.pugx.org/Sagor110090/laravelgooglemaps/d/total.svg)](https://packagist.org/packages/Sagor110090/laravelgooglemaps)
+[![Latest Stable Version](https://poser.pugx.org/Sagor110090/laravelgooglemaps/v/stable.svg)](https://packagist.org/packages/Sagor110090/laravelgooglemaps)
+[![Latest Unstable Version](https://poser.pugx.org/Sagor110090/laravelgooglemaps/v/unstable.svg)](https://packagist.org/packages/Sagor110090/laravelgooglemaps)
+[![License](https://poser.pugx.org/Sagor110090/laravelgooglemaps/license.svg)](https://packagist.org/packages/Sagor110090/laravelgooglemaps)
 
 This repo aims to use google map features in laravel 5.x. It is easy to use and flexible, you can just install this package and enjoy google map in your website and/or applications.
 
@@ -41,7 +41,7 @@ This repo aims to use google map features in laravel 5.x. It is easy to use and 
 Add in composer.json
 ```
   "require": {
-      "farhanwazir/laravelgooglemaps": "^2.3"
+      "Sagor110090/laravelgooglemaps": "^2.3"
       ----
   }
 ```
@@ -51,26 +51,26 @@ Then
 ```
 Or install via composer cli
 ```
-  composer require farhanwazir/laravelgooglemaps
+  composer require Sagor110090/laravelgooglemaps
 ```
 
 Add service provider `config/app.php`
 ```php
-        FarhanWazir\GoogleMaps\GMapsServiceProvider::class,
+        Sagor110090\GoogleMaps\GMapsServiceProvider::class,
 ```
 
 And finally add in the alias section `config/app.php`
 ```php
-        'GMaps' => FarhanWazir\GoogleMaps\Facades\GMapsFacade::class,
+        'GMaps' => Sagor110090\GoogleMaps\Facades\GMapsFacade::class,
 ```
 
 Now publish configuration file
 ```php
-    php artisan vendor:publish --provider="FarhanWazir\GoogleMaps\GMapsServiceProvider"
+    php artisan vendor:publish --provider="Sagor110090\GoogleMaps\GMapsServiceProvider"
 ```
 
 ##Usage
-Example files are under FarhanWazir/GoogleMaps/Example:
+Example files are under Sagor110090/GoogleMaps/Example:
 
 Controller Example; reference code for display method
 ```php

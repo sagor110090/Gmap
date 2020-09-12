@@ -1,6 +1,6 @@
-<?php namespace FarhanWazir\GoogleMaps;
+<?php namespace Sagor110090\GoogleMaps;
 
-use FarhanWazir\GoogleMaps\Containers\isInsidePolygon;
+use Sagor110090\GoogleMaps\Containers\isInsidePolygon;
 use Illuminate\Support\Facades\DB;
 
 class GMaps
@@ -1149,7 +1149,7 @@ class GMaps
             if ($this->cluster) {
                 $this->output_js .= '
 
-            <script type="text/javascript" src="'.asset('libs/FarhanWazir/GMaps/markerclusterer.js').'"></script >
+            <script type="text/javascript" src="'.asset('libs/Sagor110090/GMaps/markerclusterer.js').'"></script >
                     ';
             }
         }
