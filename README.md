@@ -51,7 +51,7 @@ Then
 ```
 Or install via composer cli
 ```
-  composer require Sagor110090/laravelgooglemaps
+  composer require Sagor110090/gmap
 ```
 
 Add service provider `config/app.php`
